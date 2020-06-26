@@ -4,7 +4,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    if 
+    if !
   end
   
   BRANDS = []
