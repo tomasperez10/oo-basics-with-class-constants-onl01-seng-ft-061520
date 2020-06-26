@@ -5,6 +5,18 @@ class Shoe
   def initialize(brand)
     @brand = brand
   end
+  
+  BRANDS = []
+  
+  def brand=(brand)
+    @brand = brand
+    BRANDS << brand
+  end
+  
+  def brand
+    @brand = brand
+    @size = 3
+  end
 
   def cobble
     self.condition = "new"
